@@ -2,8 +2,8 @@ pi := /github/pi-mono/packages/coding-agent/dist/cli.js
 
 all:
 	echo "ONLY run this in a container"
-	cat -n Makefile
-	pi --version
+	echo "This will fail outside of a container"
+	$(pi) --version
 
 export: $(patsubst agent/sessions/%.jsonl,output/%.html,$(shell find agent/sessions -name '*.jsonl'))
 
