@@ -1,5 +1,6 @@
 {
   "defaultProvider": "llama-cpp",
   "defaultModel": "ggml-org/gpt-oss-20b-GGUF",
-  "lastChangelogVersion": "0.64.0"
+  "lastChangelogVersion": "0.64.0",
+  "defaultThinkingLevel": "low"
 }
