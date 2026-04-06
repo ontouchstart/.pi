@@ -1,0 +1,5 @@
+{"type":"session","version":3,"id":"96ea0b5b-9ee8-4283-bc21-3ce49f9816f4","timestamp":"2026-04-01T15:30:37.748Z","cwd":"/tmp/pi-runtime-events-1775057437746-lb0iaybc1p"}
+{"type":"model_change","id":"368228f8","parentId":null,"timestamp":"2026-04-01T15:30:37.752Z","provider":"faux","modelId":"faux-1"}
+{"type":"thinking_level_change","id":"c4d37977","parentId":"368228f8","timestamp":"2026-04-01T15:30:37.752Z","thinkingLevel":"off"}
+{"type":"message","id":"49494b6d","parentId":"c4d37977","timestamp":"2026-04-01T15:30:37.757Z","message":{"role":"user","content":[{"type":"text","text":"hello"}],"timestamp":1775057437755}}
+{"type":"message","id":"d701344a","parentId":"49494b6d","timestamp":"2026-04-01T15:30:37.758Z","message":{"role":"assistant","content":[{"type":"text","text":"one"}],"api":"faux:1775057437746:i39z60r3i99","provider":"faux","model":"faux-1","usage":{"input":1286,"output":1,"cacheRead":0,"cacheWrite":1286,"totalTokens":2573,"cost":{"input":0,"output":0,"cacheRead":0,"cacheWrite":0,"total":0}},"stopReason":"stop","timestamp":1775057437746}}
