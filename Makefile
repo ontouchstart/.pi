@@ -1,15 +1,12 @@
-pi := /github/pi-mono/packages/coding-agent/dist/cli.js
+pi := /pi-mono/packages/coding-agent/dist/cli.js
 
 all:
 	echo "ONLY run this in a container"
 	echo "This will fail outside of a container"
 	$(pi) --version
 
-export: $(patsubst agent/sessions/%.jsonl,output/%.html,$(shell find agent/sessions -name '*.jsonl'))
+export: $(patsubst agent/sessions/%.jsonl,agent/sessions/%.html,$(shell find agent/sessions -name '*.jsonl'))
 
-output/%.html: agent/sessions/%.jsonl | output
-	mkdir -p $(dir $@)
+agent/sessions/%.html: agent/sessions/%.jsonl 
 	$(pi) --export $< $@
 
-output:
-	mkdir -p output
