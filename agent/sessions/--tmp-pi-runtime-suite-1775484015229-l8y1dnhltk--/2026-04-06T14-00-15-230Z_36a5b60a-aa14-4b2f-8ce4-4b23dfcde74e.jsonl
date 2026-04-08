@@ -1,5 +1,0 @@
-{"type":"session","version":3,"id":"36a5b60a-aa14-4b2f-8ce4-4b23dfcde74e","timestamp":"2026-04-06T14:00:15.230Z","cwd":"/tmp/pi-runtime-suite-1775484015229-l8y1dnhltk"}
-{"type":"model_change","id":"77696c1f","parentId":null,"timestamp":"2026-04-06T14:00:15.230Z","provider":"faux","modelId":"faux-1"}
-{"type":"thinking_level_change","id":"4568f13e","parentId":"77696c1f","timestamp":"2026-04-06T14:00:15.230Z","thinkingLevel":"medium"}
-{"type":"message","id":"e017f334","parentId":"4568f13e","timestamp":"2026-04-06T14:00:15.232Z","message":{"role":"user","content":[{"type":"text","text":"hello"}],"timestamp":1775484015231}}
-{"type":"message","id":"52bcf0a0","parentId":"e017f334","timestamp":"2026-04-06T14:00:15.232Z","message":{"role":"assistant","content":[{"type":"text","text":"one"}],"api":"faux:1775484015229:p7o47i4ewwh","provider":"faux","model":"faux-1","usage":{"input":1286,"output":1,"cacheRead":0,"cacheWrite":1286,"totalTokens":2573,"cost":{"input":0,"output":0,"cacheRead":0,"cacheWrite":0,"total":0}},"stopReason":"stop","timestamp":1775484015229}}
